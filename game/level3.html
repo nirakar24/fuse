@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Stick Hero</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="container">
+  <div id="score"></div>
+  <canvas id="game" width="375" height="375"></canvas>
+  <div class="overlay">
+    <div class="level-img">
+      <img src="./../img/wano_2.jpg" width="40%">
+    </div>
+    <h1>Wano Warpath</h1>
+    <h2>0%</h2>
+  </div>
+  <div id="introduction">Hold down the mouse to stretch out a stick <br> <b>Level 3</b></div>
+  <div id="perfect">DOUBLE SCORE</div>
+  <button id="restart">RESTART</button>
+</div>
+
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./game_animate.js"></script>
+  <script  src="./level3.js"></script>
+
+</body>
+</html>

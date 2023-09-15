@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Game";
+  src: url("./fonts/ghostclan.ttf");
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Game";
+}
+
+#logo2{
+  position: relative;
+  height: 70%;
+  overflow: hidden;
+}
+
+body{
+  display: grid;
+  place-items: center;
+}
+
+.container{   
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;  
+  overflow: hidden;
+}
+
+.start{
+  left: 50%;
+}
+
+.bg-img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  z-index: 9;
+  /* margin: 30px; */
+  /* background: #009938; */
+}
+
+svg{
+  font-size: 100px;
+  padding-top: 0.5rem;
+  /* overflow: hidden; */
+}
+
+.copy{
+  fill: none;
+  stroke: #921E66;
+  stroke-width: 3px;
+  stroke-dasharray: 8% 30%;
+  stroke-dashoffset: 0%;
+  animation: line-anim 5s ease-in-out infinite;
+}
+
+.copy1{
+  stroke:#AD5C31;
+  animation-delay: 1s;
+}
+.copy2{
+  stroke:#1C0704;
+  animation-delay: 2s;
+}
+.copy3{
+  stroke:#b9bc05;
+  animation-delay: 3s;
+}
+.copy4{
+  stroke:#36280e;
+  animation-delay: 4s;
+}
+.copy5{
+  stroke:rgb(218, 236, 50);
+  animation-delay: 5s;
+}
+
+
+.bg-img img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.centered-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+  z-index: 999;
+  
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0.2rem;
+
+}
+
+.red-btn{
+  background-color: red;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; 
+}
+
+.button {
+  padding: 10px 20px;
+  background-color:  rgb(228, 138, 48); 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.count-down {
+  width: 20%;
+  justify-content: space-between;
+  display: flex;
+  font-family: "Game";
+  font-size: 5rem;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(163, 88, 13) 12px -22px 30px,rgb(168, 88, 13) -12px 22px 30px;
+  position: absolute;
+  margin-top: -10%; 
+  left: 47%;
+  transform: translateX(-50%); 
+  z-index: 10; 
+}
+
+
+@keyframes line-anim {
+  100%{
+      stroke-dashoffset: -35%;
+  }
+}

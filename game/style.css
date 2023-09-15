@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Game";
+  src: url("./../fonts/ghostclan.ttf");
+}
+
+html,
+body {
+  font-family:"Game";
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.895);
+  color: aliceblue;
+  font-family: "Game";
+  pointer-events: none; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 99;
+}
+
+.level-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  height: 20vh;
+}
+
+.level-img img{
+  /* bottom: ; */
+  object-fit: contain;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#score {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#introduction {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: opacity 2s;
+}
+
+#restart {
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  border-radius: 5rem;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  border: none;
+  font-weight: 700;
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+  cursor: pointer;
+}
+
+#perfect {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 2s;
+}

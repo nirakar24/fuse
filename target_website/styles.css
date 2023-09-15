@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Game";
+    src: url("./../../fonts/ghostclan.ttf");
+}
+
+body {
+    background: linear-gradient(rgb(7, 198, 223),rgb(2, 77, 87));
+
+
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+a{
+    color: black;
+}
+
+/* Separate CSS file for styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: "Game";
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+}
+
+.overlay h2{
+    color: #fff;
+    font-family: "Game";
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.overlay h1{
+    color: #fff;
+    font-family: "Game";
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #fff;
+}
+
+.footer-section p {
+    color: #ccc;
+}
+

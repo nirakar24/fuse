@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Stage 2</title>
+</head>
+<body>
+  <div class="overlay">
+    <h1>🔍 Get ready for the Code Hunt! 🎯</h1>
+    <h2 id="loader">0%</h2>
+  </div>
+  <nav>
+    <h1>Web-Fusion.</h1>
+  </nav>
+  
+  <div class="intro-img">
+    <div class="intro-text">
+        <h1>Embark on a challenging adventure to decipher cryptic clues and unlock the secrets of a mysterious realm. Your journey into the enigmatic continues.</h1>
+    </div>
+    <a href="./code.html"><img id="bottle" src="./../../img/bottle.png"></a>
+    <img src="./../../img/stage_2.jpg">
+  </div>
+  <div class="content">
+    <div class="left">
+      <h2>Brook's Eternal tale</h2>
+      <p>
+        Brook, the immortal musician of the Straw Hat Pirates, chronicled their incredible adventures, including the monumental discovery of the One Piece on Laughtale. After losing their beloved ship and witnessing the passage of time that claimed the lives of his dear friends, Brook cast their story into the sea.</p>
+        <p>The tale within the drifting bottle became a global phenomenon, reshaping the world's perception of Monkey D. Luffy, the King of the Pirates, and the indomitable spirit of the Straw Hat Pirates. This newfound knowledge inspired a fresh wave of adventurers across the globe.</p>
+        <p>Unfazed by the passage of centuries, Brook traveled the world, sharing the epic saga of his beloved crew through song and storytelling. His undying spirit ensured that the legacy of Monkey D. Luffy and the Straw Hat Pirates endured, forever altering the course of history.</p>
+    </div>
+    <div class="right">
+      <video controls loop autoplay width="640" height="360">
+        <source src="./../../video/luffy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      
+    </div>
+  </div>
+  <div class="input-container centered-button">
+    <input type="text" id="codeInput"  class="input-field" placeholder="Passcode">
+    <button class="red-btn" onclick="checkCode()">Get code</button>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./animate.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Fusion</title>
+</head>
+<body>
+    <div class="container">
+        <div class="bg-img">
+            <img src="./img/jolly_roger.jpg">
+        </div>
+        <div class="text-container bg-img overlay">
+         <div id="logo2">
+            <svg  viewBox="0 0 1000 400">
+                <text id="logo" x="50%" y="50%" text-anchor="middle" fill="none">Web Fusion</text>
+                <use xlink:href="#logo" class="copy copy1"></use>
+                <use xlink:href="#logo" class="copy copy2"></use>
+                <use xlink:href="#logo" class="copy copy3"></use>
+                <use xlink:href="#logo" class="copy copy4"></use>
+                <use xlink:href="#logo" class="copy copy5"></use>
+            </svg></div>
+
+            <div class="count-down">
+                <div class="timer min">
+                   <div class="count">
+                      <div class="numb">
+                         00
+                      </div>
+                      
+                   </div>
+                </div>
+                <div class="clone">
+                   :
+                </div>
+                <div class="timer sec">
+                   <div class="count">
+                      <div class="numb">
+                         00
+                      </div>
+                      
+                   </div>
+                </div>
+                <div class="clone">
+                  :
+               </div>
+                <div class="timer mili">
+                   <div class="count">
+                      <div class="numb">
+                         00
+                      </div>
+                      
+                   </div>
+                </div>
+             </div>
+
+             <div class="btn-container centered-button">
+               <button class="button">Start Game</button>
+            </div>
+
+            <div class="input-container centered-button">
+                    <input type="text" id="codeInput"  class="input-field" placeholder="Passcode">
+                    <button class="red-btn" onclick="checkCode()">Stop</button>
+                </div>
+                
+        </div>
+    </div>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./animate.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

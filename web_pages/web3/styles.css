@@ -1,0 +1,129 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.input-field {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px; 
+  }
+
+  .input-container {
+    /* background: #161537; */
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    transform: translate(0%, 20%);
+    /* margin-top: 20px; */
+    padding: 2rem 2rem;
+  }
+
+  .centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    z-index: 999;
+    
+  }
+
+  .red-btn{
+    background-color: rgb(2, 168, 60);
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+button{
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    background-color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+/* Separate CSS file for styling */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    /* color: #333; */
+    font-weight: 100;
+}
+
+h2 {
+    color: #444;
+    font-weight: 100;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.footer-section h3 {
+    color: #fff;
+}
+
+.footer-section p {
+    color: #ccc;
+}
+

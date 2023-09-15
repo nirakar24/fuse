@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Game";
+    src: url("./../../fonts/ghostclan.ttf");
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #161537;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+
+button {
+    padding: 10px 20px; 
+    background-color: #2cb000; 
+    color: rgb(0, 0, 0); 
+    border:#000; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    width: 80%;
+    height: fit-content;
+    background-color: #48366a;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: "Game";
+    width: 100%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+}
+
+.overlay h1{
+    font-family: "Game";
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.overlay h2{
+    font-family: "Game";
+    padding-top: 2rem;
+    font-size: 2.5rem;
+}
+
+#redirect{
+    padding: 5px 1rem;
+    margin-bottom: 10px;
+}
+
+.code p{
+    padding: 2rem 2rem;
+    font-size: 22px;
+}
+
+.message{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 100%;
+    height: 160vh;
+    background: linear-gradient(#48366a,#161537);
+}
+
+.message h1{
+    color: aliceblue;
+    padding: 0rem;
+}
+
+.message #heading{
+    margin-top: 2rem;
+}
+
+.message p{
+    color: aliceblue;
+}
+
+.morse{
+    position: absolute;
+    top: 15%;
+    width: 80%;
+    height: fit-content;
+    background: rgba(66, 7, 87, 0.265);
+    border-width: 2rem;
+    border: #ffffff;
+    border-radius: 2rem;
+}
+
+.morse p{
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+}
+.morse ul{
+    color: aliceblue;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+}
+
+.morse li{
+    padding: 1rem;
+}
