@@ -3,7 +3,7 @@ const sec = document.querySelector(".sec .numb");
 const mili = document.querySelector(".mili .numb");
 var timer = setInterval(()=>{
   var currentDate = new Date().getTime();
-  var launchDate = new Date('sept 15, 2023 12:20:00').getTime();
+  var launchDate = new Date('sept 15, 2023 13:20:00').getTime();
   var duration = launchDate - currentDate;
 
   var minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
